@@ -1,0 +1,16 @@
+<h1>Admin zone</h1>
+<p>Enter login and password to open users.txt</p>
+
+<form action="/admin" method="post">
+	Login <br/>
+	<input type="text" name="login"> <br/>
+
+	Password <br/>
+	<input type="password" name="password"> <br/>
+
+	<input type="submit">
+
+</form>
+
+
+<p> <%= @users_txt %> </p>
